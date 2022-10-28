@@ -18,6 +18,9 @@ sysinfo.txt
 #But not source file with postfix. which is everything but a folder
 !*.*.meta
 
+#Ignoe clones
+*_clone*
+
 ###
 # VS/MD solution and project files
 ###
