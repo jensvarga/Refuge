@@ -2192,7 +2192,7 @@ GameObject:
   - component: {fileID: -8389779919861459419}
   - component: {fileID: -3921264977258374823}
   - component: {fileID: -4684667384540329571}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: NetworkCharacter
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2254,7 +2254,7 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 3.5
+  m_Height: 3.66
   m_Radius: 0.42
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -4329,6 +4329,21 @@ PrefabInstance:
       propertyPath: m_LookAt
       value: 
       objectReference: {fileID: 6330128195598645575}
+    - target: {fileID: 4147233797190151821, guid: 8e8a5764444544fb590058cdeccc33bd,
+        type: 3}
+      propertyPath: m_YAxis.Value
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4147233797190151821, guid: 8e8a5764444544fb590058cdeccc33bd,
+        type: 3}
+      propertyPath: m_XAxis.m_MaxSpeed
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4147233797190151821, guid: 8e8a5764444544fb590058cdeccc33bd,
+        type: 3}
+      propertyPath: m_YAxis.m_MaxSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7987948213451122196, guid: 8e8a5764444544fb590058cdeccc33bd,
         type: 3}
       propertyPath: m_LocalPosition.x
